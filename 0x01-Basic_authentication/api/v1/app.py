@@ -41,7 +41,7 @@ def f_Forbidden(e):
 def not_found(error) -> str:
     """ Not found handler
     """
-    return jsonify({"error": "Not found"}), 404
+    return jsonify({"error" "Not found"}), 404
 
 
 @app.before_request
